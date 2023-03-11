@@ -1,0 +1,37 @@
+.brand-filter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .brand-filter h2 {
+    margin-right: 10px;
+  }
+  
+  .brand-filter form {
+    display: flex;
+    align-items: left;
+  }
+  
+  .brand-filter select {
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .brand-filter button {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .brand-filter button:hover {
+    background-color: #3e8e41;
+  }

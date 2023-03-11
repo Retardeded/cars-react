@@ -1,0 +1,36 @@
+    .add-car-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+    
+    .add-car-form label {
+        display: grid;
+        margin-bottom: 10px;
+      }
+    
+    .add-car-form input[type="text"] {
+    width: 90%;
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    }
+    
+    .add-car-form button[type="submit"] {
+    background-color: #008CBA;
+    color: white;
+    font-size: 1rem;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+    
+    .add-car-form button[type="submit"]:hover {
+    background-color: #006B9F;
+    }

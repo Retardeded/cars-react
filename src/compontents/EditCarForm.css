@@ -1,0 +1,40 @@
+.edit-car-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    margin: 0 auto;
+    }
+    
+    label {
+    display: grid;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    }
+    
+    input {
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+    }
+    
+    .buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    }
+    
+    button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    }
+    
+    button:hover {
+    background-color: #0062cc;
+    }
